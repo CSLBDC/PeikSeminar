@@ -107,8 +107,8 @@ table 123456701 Seminar
         //CommentLine : record "Seminar Comment Line"; 
         Seminar: Record Seminar;
         GenProdPostingGroup: Record "Gen. Product Posting Group";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
-
+        NoSeriesMgt : Codeunit NoSeriesManagement;
+        
     trigger OnInsert();
     begin
         if "No." = '' then begin
